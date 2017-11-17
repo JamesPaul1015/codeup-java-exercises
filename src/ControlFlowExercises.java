@@ -46,35 +46,97 @@ public class ControlFlowExercises {
 
 
 
-        Scanner sc = new Scanner(System.in);
-        String choice = "y";
+//        Scanner sc = new Scanner(System.in);
+//        String choice = "y";
+//
+//        while(choice.equalsIgnoreCase("y"))
+//        {
+//
+//            System.out.println("Enter an Integer: ");
+//            int integerNext = sc.nextInt();
+//
+//            System.out.println("Number" + "  " + "Squared" + "  " + "Cubed");
+//            System.out.println("======" + "  " + "======" + "  " + "======");
+//
+//            for(int i = 1; i <= integerNext; i++)
+//            {
+//                i = integerNext;
+//                int numberSquared = (int) Math.pow(i, 2);
+//                int numberCubed = (int) Math.pow (i, 3);
+//
+//                String message = "\n" + i + "       " + numberSquared + "       " + numberCubed;
+//
+//                System.out.println(message);
+//                System.out.println();
+//
+//                // see if the user wants to continue
+//                System.out.print("Continue? (y/n): ");
+//                choice = sc.next();
+//                System.out.println();
+//            }
+//        }
 
-        while(choice.equalsIgnoreCase("y"))
-        {
 
-            System.out.println("Enter an Integer: ");
-            int integerNext = sc.nextInt();
+        Scanner grades = new Scanner(System.in);
 
-            System.out.println("Number" + "  " + "Squared" + "  " + "Cubed");
-            System.out.println("======" + "  " + "======" + "  " + "======");
+        int x = 0;
 
-            for(int i = 1; i <= integerNext; i++)
-            {
-                i = integerNext;
-                int numberSquared = (int) Math.pow(i, 2);
-                int numberCubed = (int) Math.pow (i, 3);
+        System.out.print("What was your grade? ");
+        x = grades.nextInt();
 
-                String message = "\n" + i + "       " + numberSquared + "       " + numberCubed;
+        if (x > 100 || x < 0){
+            System.out.println("Please put in a percent from 0 - 100!\n");
+        }
 
-                System.out.println(message);
-                System.out.println();
 
-                // see if the user wants to continue
-                System.out.print("Continue? (y/n): ");
-                choice = sc.next();
-                System.out.println();
+        while (x > 100 || x < 0 ){
+
+            System.out.print("What is the percentage of the student: ");
+            x = grades.nextInt();
+            if (x > 100 || x < 0){
+                System.out.println("Please put in a percent from 0 - 100!\n");
             }
         }
+        if (x <= 100 && x >= 96){
+            System.out.print("You received an A+");
+        }
+        if (x <= 95 && x >= 92){
+            System.out.print("You received an A");
+        }
+        if (x <= 91 && x >= 90){
+            System.out.print("You received an A-");
+        }
+        if (x <= 89 && x >= 86 ){
+            System.out.print("You received a B+");
+        }
+        if (x <= 85 && x >= 82){
+            System.out.print("You received a B");
+        }
+        if (x <= 81 && x >= 80){
+            System.out.print("You received a B-");
+        }
+        if (x <= 79 && x >= 76){
+            System.out.print("You received a C+");
+        }
+        if (x <= 75 && x >= 72){
+            System.out.print("You received a C");
+        }
+        if (x <= 71 && x >= 70){
+            System.out.print("You received a C-");
+        }
+        if (x <= 69 && x >= 66){
+            System.out.print("You received a D+");
+        }
+        if (x <= 65 && x >= 62){
+            System.out.print("You received a D");
+        }
+        if (x <= 61 && x >= 60){
+            System.out.print("You received a D-");
+        }
+        if (x <= 59){
+            System.out.print("You Failed");
+        }
+
 
 
 
