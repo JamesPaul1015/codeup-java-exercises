@@ -63,7 +63,7 @@ public class ConsoleExercises {
 //        System.out.println("Please enter length of a rectangle");
 //        length = Integer.parseInt(scan.nextLine());
 //
-//     
+//
 //        System.out.println("Please enter width of a rectangle");
 //        width = Integer.parseInt(scan.nextLine());
 //
@@ -106,6 +106,11 @@ public class ConsoleExercises {
 
                 // close the scanner
 //                scanner.close();
+
+
+
+
+
     }
 }
 
