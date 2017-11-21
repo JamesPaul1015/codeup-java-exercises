@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
-public class ControlFlowExercises {
-    public static void main(String[] args) {
+//public class ControlFlowExercises {
+//    public static void main(String[] args) {
 
 //        int i = 5;
 //        while (i <= 15) {
@@ -53,7 +53,7 @@ public class ControlFlowExercises {
 //
 //        while(choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("yes"))
 //        {
-//
+////
 //            System.out.print("Enter an Integer: ");
 //            int integerNext = sc.nextInt();
 //
@@ -150,8 +150,8 @@ public class ControlFlowExercises {
 
 
 
-    }
-}
+//    }
+//}
 
 
 
