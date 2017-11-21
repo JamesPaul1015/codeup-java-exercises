@@ -1,24 +1,29 @@
 import java.util.Scanner;
+
+
 public class Bob {
+
     public static void main(String[] args) {
-         {
-            public String hey(String greeting) {
-                greeting = greeting.trim();
-                System.out.println(greeting);
-                if (greeting.isEmpty()) {
-                    return "Fine. Be that way!";
-                } else if (greeting.endsWith() -1 ==!) {
-                    return "Whoa, chill out!";
-                } else if (greeting.charAt(greeting.length() - 1) == '?') {
-                    return "Sure.";
-                } else {
-                    return "Whatever.";
+        System.out.println("Say whatever you want to Bob!");
+        Scanner scan = new Scanner(System.in);
 
-                }
-
-            }
+        String userInput = scan.nextLine();
 
 
+        boolean endsWithQuestionMark = userInput.endsWith("?");
+        boolean isYelling = userInput.equals(userInput.toUpperCase()) || userInput.endsWith("!");
+        boolean didNotSayAnything = userInput.trim().isEmpty();
+
+        if(endsWithQuestionMark) {
+            System.out.println("Sure.");
+        } else if(didNotSayAnything) {
+            System.out.println("Fine. Be that way.");
+        } else if(isYelling) {
+            System.out.println("Whoah, chill out.");
+        } else {
+            System.out.println("Whatever");
         }
+
     }
 }
+
