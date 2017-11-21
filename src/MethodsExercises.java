@@ -1,33 +1,42 @@
 import java.util.Random;
 import java.util.Scanner;
 
-public class MethodsExercises {
-
-    public static void main(String [] args) {
-        Scanner input = new Scanner (System.in);
-        float num1;
-        float num2;
-
-        System.out.print ("Enter the first number:");
-        num1 = input.nextFloat();
-        System.out.print ("Enter the second number:");
-        num2 = input.nextFloat();
-        System.out.println("Your Math Table is : ");
-        System.out.println("========================");
-        System.out.printf ("Addition: %.2f + %.2f = %.2f \n", num1, num2, num1 + num2);
-        System.out.printf ("Subtraction: %.2f - %.2f = %.2f \n", num1, num2, num1 - num2);
-        System.out.printf ("Multiplication: %.4f * %.4f = %.4f \n", num1, num2, num1 * num2);
-        System.out.printf ("Division: %.4f / %.4f = %.4f \n", num1, num2, num1 / num2);
-
-
-    }
-}
-
-
-
-
-
+//public class MethodsExercises {
 //
+//    public static void main(String[] args) {
+//        Scanner input = new Scanner(System.in);
+//        String choice = "y";
+//
+//        while (choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("yes")) {
+//            float num1;
+//            float num2;
+//
+//            System.out.print("We are going to calculate a math table.\n" +
+//                    "You will enter 2 numbers and I will give you the table.\n" +
+//                    "Please enter the first number:");
+//            num1 = input.nextFloat();
+//            System.out.print("Enter the second number:");
+//            num2 = input.nextFloat();
+//            System.out.println("Your Math Table is : ");
+//            System.out.println("========================");
+//            System.out.printf("Addition: %.2f + %.2f = %.2f \n", num1, num2, num1 + num2);
+//            System.out.printf("Subtraction: %.2f - %.2f = %.2f \n", num1, num2, num1 - num2);
+//            System.out.printf("Multiplication: %.4f * %.4f = %.4f \n", num1, num2, num1 * num2);
+//            System.out.printf("Division: %.4f / %.4f = %.4f \n", num1, num2, num1 / num2);
+//            System.out.print("Would you like to see another? (y/n): ");
+//            choice = input.next();
+//            System.out.println();
+//
+//
+//        }
+//    }
+//}
+
+
+
+
+
+
 //
 //public class MethodsExercises {
 //
@@ -37,7 +46,7 @@ public class MethodsExercises {
 //
 //        while (choice.equalsIgnoreCase("y") || choice.equalsIgnoreCase("yes")) {
 //
-//            System.out.print("Enter a number between 1 and 31 so that I can find the factorial: ");
+//            System.out.print("Enter a number between 1 and 31,\nand then I will calculate the factorial: ");
 //            int n = scanner.nextInt();
 //            int result = factorial(n);
 //            System.out.println("The factorial of " + n + " is " + result);
@@ -61,7 +70,7 @@ public class MethodsExercises {
 
 
 //
-//
+
 //public class MethodsExercises {
 //    public static void main(String[] args) {
 //
@@ -75,8 +84,8 @@ public class MethodsExercises {
 //            int roll;
 //            int faces;
 //            int result;
-//            System.out.println("Hey! Dice Roller! How many faces would you like each dice to have?");
-//            System.out.print("Enter any number and press enter to roll the Dice!");
+//            System.out.println("Hey Dice Roller! How many faces would you like each die to have?");
+//            System.out.print("Enter the number of faces you would like \nAnd then press enter to roll the dice!");
 //            faces = input.nextInt();
 //            result = dice.nextInt(faces) + 1;
 //
@@ -84,10 +93,10 @@ public class MethodsExercises {
 //            die2 = (int) (Math.random() * result) + 1;
 //            roll = die1 + die2;
 //
-//            System.out.println("The first die comes up " + die1);
-//            System.out.println("The second die comes up " + die2);
-//            System.out.println("Your total roll is " + roll);
-//            System.out.print("Would you like to see another? (y/n): ");
+//            System.out.println("The first die comes up: " + die1);
+//            System.out.println("The second die comes up: " + die2);
+//            System.out.println("Which makes your total: " + roll);
+//            System.out.print("Would you like to roll again? (y/n): ");
 //            choice = input.next();
 //            System.out.println();
 //

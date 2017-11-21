@@ -1,11 +1,10 @@
-import java.io.IOException;
 import java.util.Random;
 import java.util.Scanner;
 
-public class HighLow {
-
-
+//
+class HighLow {
     public static void main(String[] args) {
+
 
         Random random = new Random();
 
@@ -33,7 +32,7 @@ public class HighLow {
 
                 } else {
 
-                    System.out.println("\nGOOD GUESS!, The Number was: " + number + "\n");
+                    System.out.println("\nGOOD GUESS!\nThe Number was: " + number + "\n");
                     System.out.print("Would you like to play again? (y/n): ");
                     choice = scanner.next();
                     System.out.println();
