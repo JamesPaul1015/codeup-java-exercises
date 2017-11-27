@@ -1,8 +1,10 @@
 import java.util.Random;
 import java.util.Scanner;
 
-//public class MethodsExercises {
-//
+import static java.lang.Integer.getInteger;
+
+public class MethodsExercises {
+
 //    public static void main(String[] args) {
 //        Scanner input = new Scanner(System.in);
 //        String choice = "y";
@@ -33,10 +35,6 @@ import java.util.Scanner;
 //}
 
 
-
-
-
-
 //
 //public class MethodsExercises {
 //
@@ -64,9 +62,6 @@ import java.util.Scanner;
 //
 //    }
 //}
-
-
-
 
 
 //
@@ -106,46 +101,18 @@ import java.util.Scanner;
 //}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //import java.util.Scanner;
 //
-//public class MethodsExercises {
-//    public static void main(String[] args) {
+//        public class MethodsExercises {
+//            public static void main(String[] args) {
 //                Scanner input = new Scanner(System.in);
 //                int num1;
 //                int num2;
 //
 //                System.out.print("Enter the first number:");
-//                num1 = input.nextInt ();
+//                num1 = input.nextInt();
 //                System.out.print("Enter the second number:");
-//                num2 = input.nextInt ();
+//                num2 = input.nextInt();
 //                System.out.println("Your Math Table is : ");
 //
 //                System.out.println("========================");
@@ -157,8 +124,53 @@ import java.util.Scanner;
 //
 //            }
 //        }
+//    }
+//}
+
+//                    Validates User Inputs
+
+        public static void main (String[]args){
+            System.out.print("Enter a number between 1 and 10: ");
+            int userInput = getInteger(1, 10);
+        }
+
+        public static int getInteger ( int min, int max){
+            Scanner sc = new Scanner(System.in);
+                if (!sc.hasNextInt()) {
+                    System.out.println("Not a number!");
+                    return getInteger(min, max);
+                }
+                int userInput = sc.nextInt();
+                if (userInput >= min && userInput <= max) {
+                    return userInput;
+                } else {
+                    System.out.println("Number not in range!");
+                    return getInteger(min, max);
+                }
+            }
+        }
 
 
 
+
+
+
+
+
+
+        //    public static int getInteger(int min, int max) {
+//                Scanner sc = new Scanner(System.in);
+//               if (!sc20.hasNextInt()) {
+//                       System.out.println("Not a number!");
+//                        return getInteger(min, max);
+//                    }
+//                int userInput = sc.nextInt();
+//                if (userInput >= min && userInput <= max) {
+//                        return userInput;
+//                  } else {
+//                       System.out.println("Number not in range!");
+//                       return getInteger(min, max);
+//                   }
+//           }
 
 
