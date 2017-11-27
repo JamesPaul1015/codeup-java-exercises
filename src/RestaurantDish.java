@@ -6,4 +6,3 @@ public class RestaurantDish {
 //        2) assign values creative to each of the properties
 //        3) print out each of the property values
 //        4) test the eat() method by calling it
-
