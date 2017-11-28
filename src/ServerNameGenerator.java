@@ -9,7 +9,7 @@ public class ServerNameGenerator {
         shuffle(adjectives, 50);
 
         for (int i = 0; i < nouns.length && i < adjectives.length; i++) {
-            System.out.println("Here is your server name: " + adjectives[i] + " " + nouns[i]);
+            System.out.println("Here is your server name: " + adjectives[i] + "-" + nouns[i]);
         }
     }
 
@@ -19,7 +19,7 @@ public class ServerNameGenerator {
             int index1 = random.nextInt(list.length);
             int index2 = random.nextInt(list.length);
 
-            //Swap these two with each other
+            //Swap the two with each other
             String temp = list[index1];
             list[index1] = list[index2];
             list[index2] = temp;
