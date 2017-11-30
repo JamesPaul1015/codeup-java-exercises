@@ -20,6 +20,6 @@ public class CircleApp {
         } while(input.yesNo("Would You Like to Make Another Circle? y/n"));
 
         int circleCount = Circle.getCircleCount();
-        System.out.println("Thanks for Making Circles With Me!\nYou Created " + circleCount + " Circles.");
+        System.out.println("Thanks for Making Circles With Me!\nYou Created " + circleCount + " Circle(s).");
     }
 }
