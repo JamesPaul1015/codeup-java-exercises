@@ -1,26 +1,26 @@
 import java.util.Scanner;
 
-//public class ControlFlowExercises {
-//    public static void main(String[] args) {
-
+public class ControlFlowExercises {
+    public static void main(String[] args) {
+//
 //        int i = 5;
 //        while (i <= 15) {
 //            System.out.print(i);
 //            System.out.print(" ");
 //            i += 1;
 //        }
-
-
+//
+//
 //        long x = 2;
 //        do {
 //            System.out.println(x);
 //            x *= x;
 //        } while (x < 1000000);
-
-
-
-
 //
+//
+//
+//
+
 //        boolean flag = true;
 //
 //        for(int i=0;i<=100;i++){
@@ -43,9 +43,9 @@ import java.util.Scanner;
 //                System.out.println(i);
 //
 //            flag = true; }
-
-
-
+//
+//
+//
 //
 //
 //        Scanner sc = new Scanner(System.in);
@@ -59,7 +59,7 @@ import java.util.Scanner;
 //
 //            System.out.println("Here is your Table!");
 //            System.out.println("Number | " + "  " + "Squared | " + "  " + "Cubed | ");
-//            System.out.println("======" + "  " + "=======" + "  " + "===== ");
+//            System.out.println("======" + "  " + "   =======" + "  " +  "   ===== ");
 //
 //            for(int i = 1; i <= integerNext; i++)
 //            {
@@ -79,13 +79,13 @@ import java.util.Scanner;
 //            }
 //        }
 
-//
+
 //        Scanner grades = new Scanner(System.in);
-//        int x = 0;
+//
 //
 //
 //        System.out.print("What was your grade from 1 - 100? ");
-//        x = grades.nextInt();
+//        long x = grades.nextInt();
 //
 //        if (x > 100 || x < 0){
 //            System.out.println("Please put in a percent from 0 - 100!\n");
@@ -150,8 +150,8 @@ import java.util.Scanner;
 
 
 
-//    }
-//}
+    }
+}
 
 
 
