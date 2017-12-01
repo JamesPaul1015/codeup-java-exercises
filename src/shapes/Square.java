@@ -1,25 +1,93 @@
 package shapes;
 
-import java.util.Scanner;
+public class Square extends Quadralateral implements Measurable {
+    protected double side;
 
-public class Square extends Rectangle
-{
-
-        // Contructor with the argument
-    public Square(int w,int h)
-    {
-        super(w,h); //explicit call to superclass Rectangle cnstructor.
+    public Square(double side) {
+        super(side, side);
+        this.side = side;
     }
-    // a method for computing the area of the square
-    public int getArea() {
-        return width * height;
-    }
-    // a method for computing the area of the square
-    public int getPerimeter() {
-        return (2*height) + (2*width);
 
-        }
-        }
+    @Override
+    public double getPerimeter() {
+        return side * 4;
+    }
+
+    @Override
+    public double getArea() {
+        return Math.pow(side, 2);
+    }
+
+    @Override
+    public void setLength(double side) {
+        setWidth(side);
+    }
+
+    @Override
+    public void setWidth(double side) {
+        width = side;
+        length = side;
+        this.side = side;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//package shapes;
+//
+//import java.util.Scanner;
+//
+//public class Square extends Rectangle
+//{
+//
+//        // Contructor with the argument
+//    public Square(int w,int h)
+//    {
+//        super(w,h); //explicit call to superclass Rectangle cnstructor.
+//    }
+//    // a method for computing the area of the square
+//    public int getArea() {
+//        return width * height;
+//    }
+//    // a method for computing the area of the square
+//    public int getPerimeter() {
+//        return (2*height) + (2*width);
+//
+//        }
+//        }
 
 
 

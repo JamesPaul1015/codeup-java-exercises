@@ -1,28 +1,93 @@
 package shapes;
 
-import java.util.Scanner;
+public class Rectangle extends Quadralateral implements Measurable {
 
-public class Rectangle {
-    // Declarations for the width and length that are public and will be available globally
-    public int width = 0;
-    public int height = 0;
+    public Rectangle(double length, double width) {
+        super(length, width);
+    }
 
-    // Constructor for objects of class Rectangle
-    public Rectangle(int w, int h) {
-        width = w;  // Set the the length and width.
-        height = h;
+    @Override
+    public double getPerimeter() {
+        return length * 2  + width * 2;
+    }
+
+    @Override
+    public double getArea() {
+        return length * width;
+    }
+
+    @Override
+    public void setLength(double length) {
 
     }
-    // a method for computing the area of the rectangle or square and return the value to print
-    public int getArea() {
-        return width * height;
-    }
-    // a method for computing the area of the rectangle or square and return the value to print
-    public int getPerimeter() {
-        return (2 * height) + (2 * width);
+
+    @Override
+    public void setWidth(double width) {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//package shapes;
+//
+//import java.util.Scanner;
+//
+//public class Rectangle {
+//    // Declarations for the width and length that are public and will be available globally
+//    public int width = 0;
+//    public int height = 0;
+//
+//    // Constructor for objects of class Rectangle
+//    public Rectangle(int w, int h) {
+//        width = w;  // Set the the length and width.
+//        height = h;
+//
+//    }
+//    // a method for computing the area of the rectangle or square and return the value to print
+//    public int getArea() {
+//        return width * height;
+//    }
+//    // a method for computing the area of the rectangle or square and return the value to print
+//    public int getPerimeter() {
+//        return (2 * height) + (2 * width);
+//
+//    }
+//}
 
 
 
