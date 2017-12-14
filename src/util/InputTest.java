@@ -1,5 +1,5 @@
 package util;
-//
+
 //public class InputTest {
 //    public static void main(String[] args) {
 //        Input input = new Input();
@@ -55,31 +55,31 @@ package util;
 //    }
 //}
 
-import java.util.Scanner;
-/*
- * Sample java source code convert hexadecimal to decimal
- */
-
-public class InputTest {
-
-    public static void main(String[] args) {
-        System.out.print("Hexadecimal Input:");
-        // read the hexadecimal input from the console
-        Scanner s = new Scanner(System.in);
-        String inputHex = s.nextLine();
-        try{
-            // actual conversion of hex to decimal
-            Integer outputDecimal = Integer.parseInt(inputHex, 16);
-            System.out.println("Decimal Equivalent : "+outputDecimal);
-        }
-        catch(NumberFormatException ne){
-            // Printing a warning message if the input is not a valid hex number
-            System.out.println("Invalid Input");
-        }
-        finally{
-            s.close();
-        }
-
-    }
-
-}
+//import java.util.Scanner;
+///*
+// * Sample java source code convert hexadecimal to decimal
+// */
+//
+//public class InputTest {
+//
+//    public static void main(String[] args) {
+//        System.out.print("Hexadecimal Input:");
+//        // read the hexadecimal input from the console
+//        Scanner s = new Scanner(System.in);
+//        String inputHex = s.nextLine();
+//        try{
+//            // actual conversion of hex to decimal
+//            Integer outputDecimal = Integer.parseInt(inputHex, 16);
+//            System.out.println("Decimal Equivalent : "+outputDecimal);
+//        }
+//        catch(NumberFormatException ne){
+//            // Printing a warning message if the input is not a valid hex number
+//            System.out.println("Invalid Input");
+//        }
+//        finally{
+//            s.close();
+//        }
+//
+//    }
+//
+//}

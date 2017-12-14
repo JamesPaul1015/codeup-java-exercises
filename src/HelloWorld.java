@@ -5,48 +5,47 @@ public class HelloWorld {
 
 
         int myFavoriteNumber = 42;
-        System.out.println(myFavoriteNumber);
+        System.out.println("My favorite Number is : " + myFavoriteNumber);
 
 
 
-//        String myString = "To be, or not be, that is the question";
-//        System.out.println(myString);
-//
-//
-//
-//        long myNumber = 123;
-//        System.out.println(myNumber);
-//
-//
-//
-//        int x = 5;
-//        System.out.println(x++);
-//        System.out.println(x);
-//
-//
-//
-//        int x = 5;
-//        System.out.println(++x);
-//        System.out.println(x);
-//
-//
-//        int x = 4;
-//        x += 5;
-//        System.out.println(x);
-//
-//
-//        int x = 3;
-//        int y = 4;
-//        y *= x;
-//        System.out.println(y);
-//
-//
-//        int x = 10;
-//        int y = 2;
-//        x /= y;
-//        y -= x;
-//        System.out.println(x);
-//        System.out.println(y);
+        String myString = "One of my favorite quotes is :\nTo be, or not be, that is the question";
+        System.out.println(myString);
+
+
+
+        long myNumber = 123;
+        System.out.println(myNumber);
+
+
+
+        int x = 5;
+        System.out.println(x++);
+        System.out.println(x);
+
+
+        x = 5;
+        System.out.println(++x);
+        System.out.println(x);
+
+
+        x = 4;
+        x += 5;
+        System.out.println(x);
+
+
+        x = 3;
+        int y = 4;
+        y *= x;
+        System.out.println(y);
+
+
+        x = 10;
+        y = 2;
+        x /= y;
+        y -= x;
+        System.out.println(x);
+        System.out.println(y);
 
 
 
